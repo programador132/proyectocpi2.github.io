@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #808080;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    text-align: left;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #ff0;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+    background-color: #ff0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center; /* Centrado horizontalmente */
+    align-items: flex-start;
+    min-height: calc(100vh - 120px); /* Resta la altura del encabezado y del pie de página */
+    background: #f5f5f5;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px; /* Espacio para el pie de página */
+}
+
+.vertical-rectangle {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    width: 400px;
+    height: calc(100vh - 120px); /* Resta la altura del encabezado y del pie de página */
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.vertical-rectangle h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.vertical-rectangle p {
+    margin: 0.5rem 0;
+}
+
+.square {
+    width: 400px; /* Ancho igual que el rectángulo */
+    height: calc(100vh - 120px); /* Mismo alto que el rectángulo */
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    margin-left: 20px; /* Espacio entre el rectángulo y el cuadro */
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #666;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}

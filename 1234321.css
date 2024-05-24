@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #808080; /* Gris */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    text-align: left;
+    margin: 0;
+    padding-left: 1rem;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #ff0; /* Amarillo */
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+    background-color: #ff0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#courses {
+    background: #f5f5f5; /* Fondo gris claro */
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, outline 0.3s ease; /* Agregado 'outline' a la transición */
+    flex-basis: calc(33.333% - 2rem);
+    box-sizing: border-box;
+}
+
+.course img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo para el brillo al pasar el mouse */
+.course:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; /* Fondo gris claro al pasar el mouse */
+    outline: 2px solid #00f; /* Brillo azul alrededor de la tarjeta al pasar el mouse */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
